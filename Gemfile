@@ -33,4 +33,7 @@ group :development, :test do
   gem "test-prof"
 
   gem "annotate"
+
+  gem "prosopite"
+  gem "pg_query"
 end

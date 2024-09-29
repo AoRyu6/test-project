@@ -102,6 +102,24 @@ GEM
       i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    google-protobuf (4.28.2)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-x86-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-x86_64-linux)
+      bigdecimal
+      rake (>= 13)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
@@ -149,6 +167,9 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.8)
+    pg_query (5.1.0)
+      google-protobuf (>= 3.22.3)
+    prosopite (1.4.2)
     psych (5.1.2)
       stringio
     puma (6.4.3)
@@ -278,6 +299,8 @@ DEPENDENCIES
   factory_bot_rails
   faker
   pg (~> 1.1)
+  pg_query
+  prosopite
   puma (>= 5.0)
   rails (~> 7.2.1)
   rspec-rails
