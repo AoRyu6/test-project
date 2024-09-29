@@ -33,6 +33,7 @@ group :development, :test do
   gem "test-prof"
 
   gem "htmlbeautifier"
+  gem "erb_lint", require: false
 
   gem "annotate"
 

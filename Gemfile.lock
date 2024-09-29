@@ -76,6 +76,13 @@ GEM
       rake (>= 10.4, < 14.0)
     ast (2.4.2)
     base64 (0.2.0)
+    better_html (2.1.1)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
     bigdecimal (3.1.8)
     brakeman (6.2.1)
       racc
@@ -92,6 +99,13 @@ GEM
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
     drb (2.2.1)
+    erb_lint (0.6.0)
+      activesupport
+      better_html (>= 2.0.1)
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop (>= 1)
+      smart_properties
     erubi (1.13.0)
     factory_bot (6.5.0)
       activesupport (>= 5.0.0)
@@ -263,6 +277,7 @@ GEM
       rubocop (~> 1.51)
     ruby-progressbar (1.13.0)
     securerandom (0.3.1)
+    smart_properties (1.17.0)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -297,6 +312,7 @@ DEPENDENCIES
   brakeman
   bundler-audit
   debug
+  erb_lint
   factory_bot_rails
   faker
   htmlbeautifier
