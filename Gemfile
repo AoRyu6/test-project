@@ -20,6 +20,7 @@ group :development, :test do
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
+  gem "bundler-audit", require: false
 
   gem "rubocop-shopify", require: false
   gem "rubocop-rails", require: false
