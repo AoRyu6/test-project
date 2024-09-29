@@ -249,6 +249,7 @@ GEM
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     stringio (3.1.1)
+    test-prof (1.4.2)
     thor (1.3.2)
     timeout (0.4.1)
     tzinfo (2.0.6)
@@ -285,6 +286,7 @@ DEPENDENCIES
   rubocop-rails
   rubocop-shopify
   sprockets-rails
+  test-prof
   tzinfo-data
 
 BUNDLED WITH
