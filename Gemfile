@@ -32,6 +32,8 @@ group :development, :test do
   gem "faker"
   gem "test-prof"
 
+  gem "htmlbeautifier"
+
   gem "annotate"
 
   gem "prosopite"
